@@ -1,47 +1,106 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Birrieria Apatzingan",
+  "tagline": "Michoacán-style birria, simmered slow on Laurel Canyon.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Birria, the way Michoacán means it.",
+    "subheading": "Goat, beef shoulder, hours of low simmer in adobo. Served with consomé hot enough to fog your glasses. The Pacoima birrieria 591 reviews keep coming back to.",
+    "ctaText": "Order birria",
+    "ctaLink": "tel:8188906265",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=1600&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "A recipe carried from Apatzingán.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Apatzingán, Michoacán is where birria was born — slow-simmered goat, dried chiles, the kind of adobo that takes a full day to come into itself. We carried that recipe here in 2003, and it hasn't changed a thing.",
+      "Every morning the cazos go on at sunrise. By noon the consomé is deep, dark, and unmistakably alive. Pull a tortilla through it before your first bite. That's how birria's been done for a hundred years."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Birria de chivo (goat)",
+      "description": "Slow-simmered goat in dried-chile adobo. Served with consomé, fresh tortillas, lime, cilantro, white onion.",
+      "price": "$18.00"
+    },
+    {
+      "title": "Birria de res (beef)",
+      "description": "Beef shoulder, same dried-chile bath, same patience. Richer, deeper, equally Michoacán.",
+      "price": "$16.00"
+    },
+    {
+      "title": "Quesabirria tacos",
+      "description": "Tortilla dipped in birria fat, melted oaxaca cheese, tender meat. Crispy edges. Three to an order.",
+      "price": "$13.50"
+    },
+    {
+      "title": "Birria ramen",
+      "description": "Our consomé, ramen noodles, generous birria, cilantro and onion on top. The crossover dish that surprised everyone.",
+      "price": "$14.50"
+    },
+    {
+      "title": "Mariachi platter",
+      "description": "Half goat, half beef, rice, beans, consomé bowl, six tortillas. Feeds two — or one with intent.",
+      "price": "$28.00"
+    },
+    {
+      "title": "Mexican beverages",
+      "description": "Horchata, Mexican Coke, jamaica, tamarindo. The right thing to drink with birria.",
+      "price": "$3.50"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Esteban L.",
+      "text": "If you grew up eating birria, this is THE birria. The consomé alone is worth the drive. Michoacán flavors, hands down.",
+      "rating": 5
+    },
+    {
+      "name": "Yvonne G.",
+      "text": "Quesabirria here is the best in the Valley. Crispy edges, oozing cheese, broth for dipping. I dream about it.",
+      "rating": 5
+    },
+    {
+      "name": "Ricardo M.",
+      "text": "My family is from Apatzingán. This place is the real thing. The owners welcome you like family.",
+      "rating": 5
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 890-6265",
+    "email": "hola@birrieriaapatzingan.com",
+    "address": "10040 Laurel Canyon Blvd, Pacoima, California",
+    "mapEmbedQuery": "Birrieria Apatzingan 10040 Laurel Canyon Blvd Pacoima CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "Closed",
+      "Tuesday": "9:00 AM – 8:00 PM",
+      "Wednesday": "9:00 AM – 8:00 PM",
+      "Thursday": "9:00 AM – 8:00 PM",
+      "Friday": "9:00 AM – 9:00 PM",
+      "Saturday": "8:00 AM – 9:00 PM",
+      "Sunday": "8:00 AM – 8:00 PM"
+    }
+  },
+  "social": {},
+  "gallery": [
+    "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1565895405138-6c3a1555da6a?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=1600&q=80&auto=format&fit=crop"
+  ],
+  "rating": 4.4,
+  "reviewCount": 591,
+  "theme": {
+    "primaryColor": "#B8462C",
+    "accentColor": "#D4A574",
+    "fontFamily": "Playfair_Display + Inter"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
-  },
-  "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "title": "Birrieria Apatzingan — Pacoima · Michoacán-Style Birria",
+    "description": "Pacoima's authentic Michoacán-style birria. Slow-simmered goat & beef, quesabirria, birria ramen on Laurel Canyon Blvd. 4.4★ · 591 reviews.",
+    "keywords": [
+      "birria pacoima",
+      "michoacan birria los angeles",
+      "quesabirria pacoima",
+      "best birria san fernando valley"
+    ]
   }
 }
